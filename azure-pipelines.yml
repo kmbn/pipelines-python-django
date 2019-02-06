@@ -48,7 +48,7 @@ steps:
     testRunTitle: 'Python $(PYTHON_VERSION)'
 
 - script: |
-    docker build -f Dockerfile -t $(registryName.azurecr.io/$(imageName) .
+    docker build -f Dockerfile -t $(registryName).azurecr.io/$(imageName) .
     docker login -u $(servicePrincipleId) -p $pswd $(registryName).azurecr.io
     docker push $(registryName).azurecr.io/$(imageName)
   env:
