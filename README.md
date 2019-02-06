@@ -1,5 +1,7 @@
 # Sample Python app for Azure Pipelines docs
 
+[![Build Status](https://dev.azure.com/kevin0786/kevin/_apis/build/status/kmbn.pipelines-python-django?branchName=master)](https://dev.azure.com/kevin0786/kevin/_build/latest?definitionId=1&branchName=master)
+
 For information on how to use this repository, see [Python](https://docs.microsoft.com/azure/devops/pipelines/languages/python).
 
 | Example | Build status |
