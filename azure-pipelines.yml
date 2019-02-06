@@ -52,5 +52,5 @@ steps:
     docker login -u $(servicePrincipleId) -p $pswd $(registryName).azurecr.io
     docker push $(registryName).azurecr.io/$(imageName)
   env:
-    pswd: $(servicePrincipleId)
+    pswd: $(servicePrinciplePassword)
   displayName: 'Build and push Docker image'
